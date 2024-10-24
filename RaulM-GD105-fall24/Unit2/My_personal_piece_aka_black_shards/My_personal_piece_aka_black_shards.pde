@@ -12,7 +12,7 @@ void draw() {
   noStroke();
   
   beginShape();
-  vertex(x, y);
+  vertex(x, y); 
   vertex(x + 11, y + 6);
   vertex(x + 6, y + 16);
   vertex(x - 6, y + 11);

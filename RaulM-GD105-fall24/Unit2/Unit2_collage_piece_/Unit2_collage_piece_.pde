@@ -2,14 +2,11 @@ PImage ichigo, riku, leon, sparda, zeref;
 
 void setup() {
   size(800, 600);  
-  
-  
   ichigo = loadImage("ichigo.png");
   riku = loadImage("riku.png");
   leon = loadImage("leon.png");
   sparda = loadImage("sparda.png");
   zeref = loadImage("zeref.png");
-  
   
   ichigo.resize(200, 300);  
   riku.resize(200, 300);
