@@ -10,4 +10,9 @@ void draw() {
   background(#00DEF0); // turquoise background
   fill(#F51B22); // red text
   text("Zex Kazama", width/2, height/2);
+  
+  if (frameCount == 1) {
+    save("output.png");
+    println("saved as output.png!");
+  }
 }
